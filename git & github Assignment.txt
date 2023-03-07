@@ -43,3 +43,16 @@ Ans) =>>
  There are two types of version control systems.
  1) Centralized Version Control System.
  2) Distributed Version Control System.
+
+Q6) What benifits come with using GIT?
+
+ Ans) =>> 
+ A version control application allows us to keep track of all the changes that we make in the files of our project. 
+ Every time we make changes in files of an existing project, we can push those changes to a repository. 
+ Other developers are allowed to pull your changes from the repository and continue to work with the updates that you added to the project files.
+
+ Some significant benefits of using Git are:
+ 1) Save Time.
+ 2) Ofline Working.
+ 3) Undo Mistakes.
+ 4) Track changes.
