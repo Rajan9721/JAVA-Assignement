@@ -1,0 +1,28 @@
+Q1) What is Git?
+Ans)=>>
+1) Git is an open-source distributed version control system. 
+2) It is designed to handle minor to major projects with high speed and efficiency. 
+3) It is developed to co-ordinate the work among the developers. 
+4) The version control allows us to track and work together with our team members at the same workspace.
+
+Q2) What do you understand by version control system?
+
+Ans) =>> 
+A version control system is a software that tracks changes to a file or set of files over time so that you can recall specific versions later. 
+It also allows you to work together with other programmers.
+
+The version control system is a collection of software tools that help a team to manage changes in a source code. 
+It uses a special kind of database to keep track of every modification to the code.
+
+Developers can compare earlier versions of the code with an older version to fix the mistakes.
+
+Q3) What is GitHub?
+
+Ans) =>> 
+
+GitHub is a Git repository hosting service. 
+GitHub also facilitates with many of its features, such as access control and collaboration. 
+It provides a Web-based graphical interface.
+GitHub is an American company. It hosts source code of your project in the form of different programming languages and keeps track of the various changes made by programmers.
+It offers both distributed version control and source code management (SCM) functionality of Git. 
+It also facilitates with some collaboration features such as bug tracking, feature requests, task management for every project.
