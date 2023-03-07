@@ -26,3 +26,20 @@ It provides a Web-based graphical interface.
 GitHub is an American company. It hosts source code of your project in the form of different programming languages and keeps track of the various changes made by programmers.
 It offers both distributed version control and source code management (SCM) functionality of Git. 
 It also facilitates with some collaboration features such as bug tracking, feature requests, task management for every project.
+
+Q4) Mention some populor Git hosting Services?
+
+Ans) =>> 
+1) Github.
+2) GitLab
+3) BitBucket.
+4) Beanstalk.
+5) Gitblit.
+etc.
+
+Q5) Different types of version contril systems?
+
+Ans) =>> 
+ There are two types of version control systems.
+ 1) Centralized Version Control System.
+ 2) Distributed Version Control System.
