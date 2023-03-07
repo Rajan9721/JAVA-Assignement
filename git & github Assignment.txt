@@ -56,3 +56,16 @@ Q6) What benifits come with using GIT?
  2) Ofline Working.
  3) Undo Mistakes.
  4) Track changes.
+
+Q7) What is a GIT repository?
+
+ Ans) =>> 
+In Git, the repository is like a data structure used by VCS to store metadata for a set of files and directories. 
+It contains the collection of the files as well as the history of changes made to those files. 
+Repository in Git is considered as your project folder. 
+A repository has all the project-related data. Distinct projects have distinct repositories.
+
+Q8) How can you initialize repository in Git?
+
+Ans) =>> 
+To initialize a new repository, run the command: git init 
