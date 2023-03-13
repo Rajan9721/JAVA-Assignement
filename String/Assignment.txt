@@ -13,6 +13,7 @@ Answer: There are two ways to create a String object.
  a) By string literal: Java String literal is created by using diuble quotes.
    for ex.: String s = "Welcome";
  b) By new keyword: Java String is created by using a keyword "new".
+   for ex. : String s = new String("Welcome");
 
 
 Q4) What is a String constant pool?
