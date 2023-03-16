@@ -1,7 +1,7 @@
 Q1) What is a String in Java?
 Answer:  In Java, String is basically collection of different-different types character. or 
- string is basically an object that represents sequence of char values. 
- An array of characters works same as Java string
+ 	   string is basically an object that represents sequence of char values. 
+ 	   An array of characters works same as Java string
 
 Q2) Types of String in Java are?
 Answer:  In Java String are two types-
