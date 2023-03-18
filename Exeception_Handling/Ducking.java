@@ -12,7 +12,7 @@ class Demo{
         System.out.println(result);
     }
 }
-public class ThrowsEx1 {
+public class Ducking {
 
     public static void main(String[] args) // we can also use here to duck the Exception but this is the wrong way as a good programmer.
     {

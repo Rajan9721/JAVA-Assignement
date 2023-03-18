@@ -1,4 +1,4 @@
-public class ThrowEx1 {
+public class ThrowKey {
     public static void main(String[] args) {
         int num1 = 6;
         int num2 = -2;

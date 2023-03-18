@@ -1,18 +1,22 @@
 package Constructor;
 
-
-
 class Student{
+    
     int a = 10;
-    int Student(){
-        return a;
+    private Student(){
+        System.out.println(a);
     }
+    public void disp(){
+        System.out.println("Display method");
+    }
+
 }
 
 public class PrivateConstructor {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.Student();
+        Student s;
+       
+       
     }
 
     
