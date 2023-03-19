@@ -47,7 +47,9 @@ public class MethodOverriding {
     PassengerPlane pp = new PassengerPlane();
     FighterPlane fp = new FighterPlane();
 
-   
+//    AeroPlane reff;
+//    reff = cp;
+//    reff.takeOff();
 
     Airport a = new Airport();
     a.poly(cp);
