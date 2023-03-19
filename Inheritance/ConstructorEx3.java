@@ -1,6 +1,7 @@
 package Inheritance;
 
 class A{
+    String name;
     int x, y;
     public A(){
         System.out.println("Parent class constructor");
@@ -12,7 +13,6 @@ class A{
         y = n;
         System.out.println("Sum is: "+ (x+y));
     }
-
 }
 class B extends A{
     int a, b;
