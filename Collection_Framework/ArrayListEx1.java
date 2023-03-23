@@ -53,6 +53,13 @@ public class ArrayListEx1 {
         al2.add(20);
         al2.add(200);
 
+
+        ArrayList al3 = new ArrayList();
+        al3.add(20);
+        al3.add(10);
+        al3.add(100);
+        al3.add(200);
+
 // find Size of the ArrayList
         int a = al2.size();
         System.out.println("ArrayList: "+al2);
@@ -74,9 +81,24 @@ public class ArrayListEx1 {
         boolean value = al2.contains(1000);
         System.out.println("Value is persent: "+value);
 
-// Two Collection are eguals or not  
+// Two Collections are eguals or not  
         System.out.println("Collection are equals: "+al2.equals(al1));
 
+// collection to be checked for containment in this collection
+
+        System.out.println("al2: "+al2);
+        System.out.println("al3: "+al3);
+        System.out.println("All object are same: "+al2.containsAll(al3)); // Order are not mandatory its compare values
+
+// Check indexOf values
+        int index = al2.indexOf(200);
+        System.out.println("Index of 200 in al2: "+index);
+        
+// How to define capcity of ArrayList
+        al2.ensureCapacity(10);
+        
+// Remove the null spaces 
+        al2.trimToSize();
 
     }
     
