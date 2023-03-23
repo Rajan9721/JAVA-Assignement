@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class ArrayListEx1 {
     public static void main(String[] args) {
+
+// homogeneous type of data 
         ArrayList al = new ArrayList();
         al.add(100);
         al.add(10);
@@ -11,9 +13,10 @@ public class ArrayListEx1 {
         al.add(200);
 
         System.out.println(al);
-        // Output: [100, 10, 20, 200]
-        // it means arrayList can store homogeneous type of data 
 
+        System.out.println("*********************************************");
+
+// Hetrogeneous type of data
         ArrayList al1 = new ArrayList();
         al1.add(100);
         al1.add("Java");
@@ -21,10 +24,59 @@ public class ArrayListEx1 {
         al1.add(1.3);
 
         System.out.println(al1);
+        System.out.println("*********************************************");
 
-        // Output : [100, Java, J, 1.3]
-        // it means ArrayList also can store Hetrogeneous type of data
-        
+
+// Duplicate Allowed
+        al1.add(100); 
+        System.out.println(al1);
+
+        System.out.println("*********************************************");
+
+// index based insersion
+        al1.add(2, "Program"); 
+
+        System.out.println(al1);
+
+        System.out.println("*********************************************");
+        System.out.println("After adding collection in al1");
+
+// adding a Collection  
+        al1.addAll(al);
+        System.out.println(al1);
+
+        System.out.println("New ArrayList");
+
+        ArrayList al2 = new ArrayList();
+        al2.add(10);
+        al2.add(100);
+        al2.add(20);
+        al2.add(200);
+
+// find Size of the ArrayList
+        int a = al2.size();
+        System.out.println("ArrayList: "+al2);
+        System.out.println("Size of the ArrayList al2 is: "+a);
+
+// Accessing object by index
+        Object b = al2.get(2);
+        System.out.println("At index 2 Value is: "+b);
+
+// Clear all values from arraylist
+        // al2.clear();
+        // System.out.println(al2);
+
+// Copy of collection
+        Object copyCollection = al2.clone();
+        System.out.println(copyCollection);
+
+// Find value are persent or not
+        boolean value = al2.contains(1000);
+        System.out.println("Value is persent: "+value);
+
+// Two Collection are eguals or not  
+        System.out.println("Collection are equals: "+al2.equals(al1));
+
 
     }
     
