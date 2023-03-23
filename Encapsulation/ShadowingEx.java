@@ -13,6 +13,7 @@ class Student{
     }
     public void show(){
         System.out.println(name +" "+age); // printing default value because of shadowing
+        
     }
 }
 
