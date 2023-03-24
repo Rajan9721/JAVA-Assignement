@@ -12,6 +12,7 @@ public class DefaultValues {
         System.out.println("\n\nInteger array default values:");
 
         int num[] = new int[5];
+    
         for (int val : num)
             System.out.print(val + " ");
 

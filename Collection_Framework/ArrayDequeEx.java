@@ -8,6 +8,7 @@ public class ArrayDequeEx {
          ad.add(100);
          ad.add(200);
          ad.add(300);
+         
          System.out.println(ad);
  // // Adding in same coadection
  //         ad.add(ad);
