@@ -2,7 +2,6 @@ package Collection_Framework;
 
 import java.util.LinkedList;
 
-import javax.sound.sampled.SourceDataLine;
 
 public class LinkedListEx {
     public static void main(String[] args) {
@@ -96,5 +95,15 @@ public class LinkedListEx {
         System.out.println(ll2.indexOf(200));
         System.out.println("-------------------------------------------------------------");
 
+// Duplicates are allowed
+        ll2.add(400); 
+        System.out.println("New List: "+ll2);
+        System.out.println("-------------------------------------------------------------");
+
+// lastIndexOf
+        System.out.println(ll2.indexOf(400));
+        System.out.println(ll2.lastIndexOf(400));
+
+// 
     }   
 }
