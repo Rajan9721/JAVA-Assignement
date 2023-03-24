@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class LinkedListEx {
     public static void main(String[] args) {
-        
+
         LinkedList ll = new LinkedList();
         ll.add(100);
         ll.add(200);
@@ -15,6 +15,7 @@ public class LinkedListEx {
         ll.add(ll);
         System.out.println("-------------------------------------------------------------");
         System.out.println(ll);
+
 // Hetrogeneous type of data
         LinkedList ll1 = new LinkedList();
         ll1.add(200);
@@ -103,7 +104,13 @@ public class LinkedListEx {
 // lastIndexOf
         System.out.println(ll2.indexOf(400));
         System.out.println(ll2.lastIndexOf(400));
+        System.out.println("-------------------------------------------------------------");
 
-// 
+// Insertion by index number
+        ll2.add(2, 100);
+        System.out.println(ll2);
+        System.out.println("-------------------------------------------------------------");         
+
+        
     }   
 }

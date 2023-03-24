@@ -1,0 +1,108 @@
+                                                          Exception handling Assignment 
+
+
+Q1) Explain different types of error in java.
+Ans) =>>
+There are three type of error in java.
+    a) Syntax Error.
+    b) Logical Error.
+    c) Runtime Error.
+     a) Syntax Error or Complie Time error.=>>
+        Compile Time Errors are those errors which prevent the code from running because of an incorrect syntax such 
+        as a missing semicolon at the end of a statement or a missing bracket, class not found, etc. 
+        These errors are detected by the java compiler and an error message is displayed on the screen while compiling. 
+        Compile Time Errors are sometimes also referred to as Syntax errors
+
+     b) Logical Error.
+        Logical Error: A logic error is when your program compiles and executes, 
+        but does the wrong thing or returns an incorrect result or no output when it should be returning an output. 
+        These errors are detected neither by the compiler nor by JVM. 
+        The Java system has no idea what your program is supposed to do, 
+        so it provides no additional information to help you find the error. Logical errors are also called Semantic Errors. 
+        These errors are caused due to an incorrect idea or concept used by a programmer while coding. 
+
+     c) Runtime Error:=>>
+        Run Time errors occur or we can say, are detected during the execution of the program. 
+        Sometimes these are discovered when the user enters an invalid data or data which is not relevant. 
+        Runtime errors occur when a program does not contain any syntax errors but asks the computer to do something that 
+        the computer is unable to reliably do. 
+        During compilation, the compiler has no technique to detect these kinds of errors. 
+        It is the JVM (Java Virtual Machine) that detects it while the program is running
+
+Q2) What is an Exception in Java?
+Ans) =>>
+ Exception is an unwanted or unexpected event, which occurs during the execution of a program, i.e. at run time, 
+ that disrupts the normal flow of the program’s instructions. Exceptions can be caught and handled by the program. 
+ When an exception occurs within a method, it creates an object. This object is called the exception object. 
+ It contains information about the exception, such as the name and description of the exception and the state of the 
+ program when the exception occurred.
+
+Q3) How can you handle exceptions in java? Explain with example.
+
+Ans) =>>
+
+ We can handle exception by using five keywords 
+ 1) try: 	    The "try" keyword is used to specify a block where we should place an exception code. 
+                It means we can't use try block alone. The try block must be followed by either catch or finally.
+
+ 2) catch: 	    The "catch" block is used to handle the exception. It must be preceded by try block which means we can't use catch block alone. 
+                It can be followed by finally block later.
+
+ 3) finally:	The "finally" block is used to execute the necessary code of the program. It is executed whether an exception is handled or not.
+
+ 4) throw:	    The "throw" keyword is used to throw an exception.
+
+ 5) throws: 	The "throws" keyword is used to declare exceptions. It specifies that there may occur an exception in the method. 
+                It doesn't throw an exception. It is always used with method signature.
+
+
+Q4) Why do we need exception handling in java?
+
+Ans) =>>
+    Java Exception handling is used to handle runtime errors only. 
+    The compile-time errors have to be fixed by the developer writing the code else the program won’t execute.
+
+Q5) What is the difference bitween exception and error in java?
+
+Ans) =>>
+    Exception:- 
+     a) Exception can be recovered by using the try-catch block. An error cannot be recovered.
+     b)	It can be classified into two categories i.e. checked and unchecked.	
+	 c) It occurs at compile time or run time.	
+     d)	It belongs to java.lang.Exception package.	
+     e)	Only checked exceptions are known to the compiler.	
+     f)	It is mainly caused by the application itself.	
+        Example of exception:	Checked Exceptions: SQLException, IOException
+                                Unchecked Exceptions: ArrayIndexOutOfBoundException, NullPointerException, ArithmaticException.
+    Error:- 
+     a) An error cannot be recovered.
+     b) All errors in Java are unchecked.
+     c) It occurs at run time.
+     d) It belongs to java.lang.Error package.
+     e) Errors will not be known to the compiler.
+     f) It is mostly caused by the environment in which the application is running.
+        Example of error: Java.lang.StackOverFlow, java.lang.OutOfMemoryError
+
+Q6) Name of the different type of exception in java.
+
+Ans) =>>
+ 1) Built-in Exceptions
+    Checked Exception
+    Unchecked Exception
+ 2) User-Defined Exceptions
+  a) Checked Exception:
+       IOException:
+            EOFException
+            FileNotFoundException
+            InterruptIOException
+        ClassNotFoundException
+        InterruptedException
+        SQLException
+        AWTException
+  b) Unchecked Exception
+      RuntimeException:
+        ArithmeticException
+        ArrayIndexOutOfBoundsException
+        StringIndexOutOfBoundsException
+        ClasspointException
+        NullPointerException

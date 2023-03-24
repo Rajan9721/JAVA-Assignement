@@ -1,6 +1,6 @@
 package Inheritance;
 
-class Demo1{
+class Demo12{
     String name;
     int age;
     public void std(String name, int age){
@@ -12,7 +12,7 @@ class Demo1{
         System.out.println("Name "+name+ " and age "+age);
     }
 }
-class Student extends Demo1{
+class Student extends Demo12{
 
 }
 public class Single {
