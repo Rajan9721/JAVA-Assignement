@@ -12,7 +12,7 @@ class Queue1{
                 x = n;
                 System.out.println("I have produced a value: "+ x );
                 temp = true;
-               // notify();
+                notify();
             }
             
         }
@@ -29,7 +29,7 @@ class Queue1{
             else{
                 System.out.println("I have consumed value: "+ x);
                 temp = false;
-               // notify();
+                notify();
             }
         }
         catch(Exception e){
