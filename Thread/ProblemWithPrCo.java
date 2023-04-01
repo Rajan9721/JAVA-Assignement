@@ -2,11 +2,11 @@ package Thread;
 
 class Queue1{
     int x;
-    void put(int n){
+     void put(int n){
         x = n;
         System.out.println("I have produced a value: "+ x );
     }
-    public void get(){
+     void get(){
         System.out.println("I have consumed value: "+ x);
     }
 }

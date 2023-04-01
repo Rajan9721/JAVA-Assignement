@@ -41,16 +41,16 @@ class Queue1{
 
 class Producer1 extends Thread
 {
-    Queue1 q;
+    Queue1 q1;
 
     Producer1(Queue1 a){
-        q = a;
+        q1 = a;
     }
     
     public void run(){
         int i = 1;
         while(true){
-            q.put(i++);    
+            q1.put(i++);    
 
         }
     }
@@ -58,13 +58,13 @@ class Producer1 extends Thread
 }
 
 class Consumer1 extends Thread{
-    Queue1 q;
+    Queue1 q2;
     Consumer1(Queue1 b){
-        q = b;
+        q2 = b;
     }
     public void run(){
         while(true){
-            q.get();
+            q2.get();
         }
 
     }
