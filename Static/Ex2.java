@@ -7,6 +7,7 @@ class Loan{
     static float rate; // rate of interest
     float si; // simple interest
     float total ;
+    
     static{
         rate = 8.5f;  // memory alocation only one time among all the objects besause of static
     }
