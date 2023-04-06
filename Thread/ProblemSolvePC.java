@@ -3,7 +3,7 @@ package Thread;
 class Queue1{
     int x;
     boolean temp = false;
-    void put(int n){
+    synchronized void put(int n){
         try{
             if(temp == true){
                 wait();
@@ -21,7 +21,7 @@ class Queue1{
         }   
         
     }
-    void get(){
+    synchronized void get(){
         try{
             if(temp == false){
                 wait();

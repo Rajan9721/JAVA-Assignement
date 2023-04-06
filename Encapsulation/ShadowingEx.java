@@ -6,6 +6,7 @@ class Student{
 
     void setData1(int age){
         age = age;  
+        
         // shadowing problem for the solve this problem we use a keyword name - this(this.age = age)
     }
     void setData2(String name){
