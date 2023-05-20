@@ -1,6 +1,6 @@
 package Thread;
 
-class Queue1{
+class Queue{
     int x;
      void put(int n){
         x = n;
@@ -13,9 +13,9 @@ class Queue1{
 
 class Producer extends Thread
 {
-    Queue1 q;
+    Queue q;
 
-    Producer(Queue1 a){
+    Producer(Queue a){
         q = a;
     }
     public void run(){
@@ -31,8 +31,8 @@ class Producer extends Thread
 
 
 class Consumer extends Thread{
-    Queue1 q;
-    Consumer(Queue1 b){
+    Queue q;
+    Consumer(Queue b){
         q = b;
     }
     public void run(){
@@ -46,7 +46,7 @@ class Consumer extends Thread{
 public class ProblemWithPrCo {
     public static void main(String[] args) {
 
-        Queue1 obj = new Queue1();
+        Queue obj = new Queue();
 
         Producer p1 = new Producer(obj);
 

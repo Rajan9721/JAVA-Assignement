@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
+
+
 class Doctor {
     private String name;
     private int age;
@@ -68,15 +70,66 @@ class Hospital {
 
 public class Main {
     public static void main(String[] args) {
+
+        String name;
+        int age;
+        String dg;
+        long mob;
+        String depart;
+        String sp;
+
         Hospital hp = new Hospital();
         Scanner sc = new Scanner(System.in);
-        Doctor doc = new Doctor("Rajan", 22, "MCA", 6386000183l, "Computer", "Software_Engineer");
-        Doctor doc1 = new Doctor("Rajan", 22, "MCA", 6386000183l, "Computer", "Software_Engineer");
-        Doctor doc2 = new Doctor("Rajan", 22, "MCA", 6386000183l, "Computer", "Software_Engineer");
-        hp.addDoctor(doc);
-        hp.addDoctor(doc1);
-        hp.addDoctor(doc2);
-        hp.displayDoctors();
+        System.out.println("**************----------************-----------*****************------------************");
+        System.out.println("Welcome to the Hospital Management system");
+        System.out.println("**************----------************-----------*****************------------************");
+
+        int n = 0;
+
+        while(true){
+            System.out.println("Please enter 1 for add Doctors");
+            System.out.println("Please enter 2 for display the Doctors.");
+
+            n = sc.nextInt();
+
+            
+
+            switch(n){
+                case 1:
+                    System.out.println("Enter the doctor name: ");
+                    name = sc.nextLine();
+                    System.out.println("Enter the age: ");
+                    age = sc.nextInt();
+                    System.out.println("Enter the highest degre: ");
+                    dg = sc.nextLine();
+                    System.out.println("Enter the mobile no. : ");
+                    mob = sc.nextLong();
+                    System.out.println("Enter the departmentin which doctor works: ");
+                    depart = sc.nextLine();
+                    System.out.println("Specialist in: ");
+                    sp = sc.nextLine();
+                    Doctor doc = new Doctor(name, age, dg, mob, depart, sp);
+                    hp.addDoctor(doc);
+                    System.out.println("**************----------************-----------*****************------------************");
+
+                    break;
+
+                case 2:
+                    if(hp.al1.isEmpty()){
+                        System.out.println("Not any docters are persent. ");
+                        System.out.println("**************----------************-----------*****************------------************");
+                    }else{
+                        hp.displayDoctors();
+                        System.out.println("**************----------************-----------*****************------------************");
+                    }
+                    break;
+                    
+            }
+
+
+
+
+        }
 
     }
 
