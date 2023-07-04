@@ -1,6 +1,6 @@
 package strings;
 
-public class RmoveCons {
+public class RemoveCons {
     public static void main(String[] args) {
         String str = "Hello, have a good day";
         String newstr = "";
