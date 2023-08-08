@@ -4,6 +4,7 @@ class Student{
     
     int a = 10;
     private Student(){
+
         System.out.println(a);
     }
     public void disp(){
@@ -14,10 +15,8 @@ class Student{
 
 public class PrivateConstructor {
     public static void main(String[] args) {
-        Student s;
-       
+        Student s;     
        
     }
-
     
 }

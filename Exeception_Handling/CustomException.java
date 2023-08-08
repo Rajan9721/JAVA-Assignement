@@ -3,6 +3,7 @@ class MyException extends Exception{
 
     }
     public MyException(String msg){
+
         super(msg);
     }
 
@@ -22,7 +23,7 @@ public class CustomException {
             }
         }
         catch(Exception e){
-            System.out.println("Enetr a valid number "+e);
+            System.out.println("Enter a valid number "+e);
         }
     }
     

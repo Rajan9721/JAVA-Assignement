@@ -5,7 +5,7 @@ class Student1{
     private int age;
 
     void setData1(int age){
-        this.age = age;  
+        this.age = age;  // assign value in instance variable age by using this keyword
         // shadowing problem solve (this.age = age)
     }
     void setData2(String name){
