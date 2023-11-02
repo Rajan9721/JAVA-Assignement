@@ -8,5 +8,4 @@ public class DateTime {
         LocalTime time=LocalTime.now();
         System.out.println(time);
     }
-  
 }

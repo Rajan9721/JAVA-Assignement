@@ -3,7 +3,7 @@ package strings;
 public class SplitFunction {
     public static void main(String args[])
     {
-        String str = "geekss@for@geekss";
+        String str = "geeks@for@geeks";
         String[] arrOfStr = str.split("@");
 
         for (String a : arrOfStr)
