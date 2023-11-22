@@ -29,7 +29,7 @@ public class TwoSum1 {
 //        For storing result we need to create an array
         int result[] = new int[2];
         for(int i = 0; i<n; i++){
-            if(map.containsKey(target-arr[i]) && map.containsKey(0)){
+            if(target == arr[i] && map.containsKey(0)){
                 result[0] = i;
                 result[1] = map.get(0);
                 break;

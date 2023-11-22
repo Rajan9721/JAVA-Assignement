@@ -12,6 +12,6 @@ public class DequeImplementation {
         deque.add(15);
         deque.add(9);
 
-        System.out.println();
+        System.out.println(deque);
     }
 }
