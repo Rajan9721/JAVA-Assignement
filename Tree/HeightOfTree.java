@@ -20,10 +20,10 @@ public class HeightOfTree {
 
     public static void main(String[] args) {
         Node root = new Node(10);
-//        root.left = new Node(5);
-//        root.right = new Node(3);
-//        root.left.left = new Node(2);
-//        root.left.right = new Node(1);
+        root.left = new Node(5);
+        root.right = new Node(3);
+        root.left.left = new Node(2);
+        root.left.right = new Node(1);
 
         System.out.println("Height of the tree is: "+height(root));
     }

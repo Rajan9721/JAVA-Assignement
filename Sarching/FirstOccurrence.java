@@ -9,7 +9,7 @@ public class FirstOccurrence {
         while (low <= high) {
             int mid = low + (high-low)/2;
             if(arr[mid] == target){
-                result =  mid;
+                result = mid;
                 high = mid-1;
             }
             else if(arr[mid]<target){

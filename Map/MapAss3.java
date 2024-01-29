@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MapAss3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of elements of array: ");
+        System.out.print("Enter the size of the array: ");
 
         int n = sc.nextInt();
 

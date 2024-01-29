@@ -1,19 +1,17 @@
 package Tree;
 
-import com.sun.source.tree.Tree;
-
-class TreeNode{
+class TreeNode1 {
     int data;
-    TreeNode left = null, right = null;
+    TreeNode1 left = null, right = null;
 
-    TreeNode(int data){
+    TreeNode1(int data){
         this.data = data;
     }
 
 }
 public class LevelOrderTraversal {
 
-    public static boolean printTable(TreeNode node, int level){
+    public static boolean printTable(TreeNode1 node, int level){
         if(node == null){
             return false;
         }
@@ -28,7 +26,7 @@ public class LevelOrderTraversal {
         return (left || right);
     }
 
-    public static void treeTraversal(TreeNode node){
+    public static void treeTraversal(TreeNode1 node){
         int level = 1;
         while(printTable(node, level)){
             level++;
@@ -36,13 +34,13 @@ public class LevelOrderTraversal {
     }
 
     public static void main(String[] args) {
-        TreeNode node = new TreeNode(10);
-        node.left = new TreeNode(5);
-        node.right = new TreeNode(15);
-        node.right.left = new TreeNode(9);
-        node.right.right = new TreeNode(7);
-        node.left.left = new TreeNode(1);
-        node.left.right = new TreeNode(3);
+        TreeNode1 node = new TreeNode1(10);
+        node.left = new TreeNode1(5);
+        node.right = new TreeNode1(15);
+        node.right.left = new TreeNode1(9);
+        node.right.right = new TreeNode1(7);
+        node.left.left = new TreeNode1(1);
+        node.left.right = new TreeNode1(3);
 
         treeTraversal(node);
     }
